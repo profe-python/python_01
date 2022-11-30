@@ -13,9 +13,8 @@ alumnos = [
     'Pablo',
     'Dani',
     'Pedro',
-    'P.González',
-    'Carlos',
-    'Adrián']
+    'Adrián',
+    'Pablo G.']
 
 
     
@@ -37,7 +36,7 @@ def crea_equipos(gente,miembros):
     return salida
 
 
-#print(crea_equipos(alumnos,2))
+#print(crea_equipos(alumnos,3))
 
 def migue(gente, miembros):
     if len(gente) < miembros:
@@ -63,7 +62,7 @@ def migue(gente, miembros):
     return listas
 
 
-pprint.pprint(migue(alumnos, 0))
+pprint.pprint(migue(alumnos, 3))
 
 
 

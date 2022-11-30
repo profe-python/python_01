@@ -1,0 +1,4 @@
+hola : Pendiente
+otra : Pendiente
+nada : Pendiente
+asi nop : Pendiente
